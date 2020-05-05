@@ -1,6 +1,16 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # GDI-DE Testsuite
+  - regex: '(GDI-Testsuite)'
+    family_replacement: 'GDI-DE Testsuite'
+
+  # ETF validator
+  - regex: '(ETF validator)(?: \((\d+)\.(\d+)\.(\d+)(?:\-[^ ]+)\))'
+
+  # Spatineo
+  - regex: '(Spatineo Monitor)'
+
   # ESRI Server products
   - regex: '(GeoEvent Server) (\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
 
@@ -156,6 +166,7 @@ user_agent_parsers:
 
   # QGIS
   - regex: '(QGIS)\/(\d)\.?0?(\d{1,2})\.?0?(\d{1,2})'
+  - regex: '^(QGIS)'
 
   # JOSM
   - regex: '(JOSM)/(\d+)\.(\d+)'
@@ -908,6 +919,9 @@ user_agent_parsers:
 
   # headless user-agents
   - regex: '\b(Windows-Update-Agent|WindowsPowerShell|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|wget2|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+
+  # PyCSW
+  - regex: '(pycsw)'
 
   # Asynchronous HTTP Client/Server for asyncio and Python (https://aiohttp.readthedocs.io/)
   - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'

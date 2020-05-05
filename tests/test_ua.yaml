@@ -8322,9 +8322,45 @@ test_cases:
     major: '100'
     minor: '3'
     patch:
-  
+
   - user_agent_string: 'ArcGISRuntime-NET/100.7 (Windows 10.0.18362; Win64; WOW64; UAP; Windows.Desktop)'
     family: 'ArcGIS Runtime SDK for NET'
     major: '100'
     minor: '7'
     patch:
+
+  - user_agent_string: 'Spatineo Monitor GetMapBot (http://www.spatineo.com/spatineo-monitor; MonitoredService http://directory.spatineo.com/service/123456)'
+    family: 'Spatineo Monitor'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Spatineo Monitor Controller (http://www.spatineo.com/spatineo-monitor/)'
+    family: 'Spatineo Monitor'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'GDI-Testsuite'
+    family: 'GDI-DE Testsuite'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'pycsw (https://pycsw.org/)'
+    family: 'pycsw'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'QGIS GML Application Schema Toolbox'
+    family: 'QGIS'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ETF validator (2.0.0-b191118T1324)'
+    family: 'ETF validator'
+    major: '2'
+    minor: '0'
+    patch: '0'
