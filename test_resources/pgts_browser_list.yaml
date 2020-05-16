@@ -67463,240 +67463,280 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3200/1.0 (4.18) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3200/1.0 () Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3220/2.0 (03.30) Profile/MIDP-2.0 Configuration/CLDC-1.1 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3410'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3510i/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3510i/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/5.1.1.5a (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3510i/1.0 (04.44) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3510i/1.0 (05.30) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3650'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3650/1.0 (4.13) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3650/1.0 (4.17) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/5.1.2.7 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6010/1.0 (8.18) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6100'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6100/1.0 (05.16)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6100/1.0 (05.16) Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/1.1 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6100/1.0 (05.16) Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/mainline (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6600'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6600/1.0 (3.42.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6600/1.0 (3.42.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6600/1.0 (4.09.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6600/1.0 (4.09.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6600/1.0 SymbianOS'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6610/1.0 (5.63) Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6610I/1.0 (3.10) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6610I/1.0 (3.10) Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/5.1.2.7 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6630'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6630/1.0 (3.45.113) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia6800'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia7250/1.0 (3.12) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia7250/1.0 (3.14)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia7610/2.0 (3.0417.0ch) Symbian'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia7650'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Nokia7650/1.0 SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'NokiaN-Gage/1.0 (4.03) SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'NP/0.1 (NP; http://www.nameprotect.com; npbot@nameprotect.com)'
     family: 'npbot'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/3.01 (compatible; NPT 0.0 beta)'
     family: 'Other'
@@ -67709,72 +67749,84 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.01-beta (Nutch; http://www.nutch.org/docs/en/bot.html; nutch-agent@lists.sourceforge.net)'
     family: 'NutchCVS'
     major: '0'
     minor: '01'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.03-dev (Nutch; http://www.nutch.org/docs/bot.html; nutch-agent@lists.sourceforge.net)'
     family: 'NutchCVS'
     major: '0'
     minor: '03'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.03-dev (Nutch; http://www.nutch.org/docs/en/bot.html; nutch-agent@lists.sourceforge.net)'
     family: 'NutchCVS'
     major: '0'
     minor: '03'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.06-dev (bot; http://www.nebel.de:8080/en/bot.html; nutch-agent@nebel.de)'
     family: 'NutchCVS'
     major: '0'
     minor: '06'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.06-dev (bot; http://www.nebel.de/bot.html; nutch-agent@nebel.de)'
     family: 'NutchCVS'
     major: '0'
     minor: '06'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.06-dev (Nutch; http://www.nutch.org/docs/en/bot.html; jagdeepssandhu@hotmail.com)'
     family: 'NutchCVS'
     major: '0'
     minor: '06'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.06-dev (Nutch; http://www.nutch.org/docs/en/bot.html; nutch-agent@lists.sourceforge.net)'
     family: 'NutchCVS'
     major: '0'
     minor: '06'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.06-dev (Nutch; http://www.s14g.com/en/search.html; travelbot@s14g.com)'
     family: 'NutchCVS'
     major: '0'
     minor: '06'
     patch:
+    skip: true
 
   - user_agent_string: 'NutchOSUOSL/0.05-dev (Nutch; http://www.nutch.org/docs/en/bot.html; nutch-agent@lists.sourceforge.net)'
     family: 'NutchOSUOSL'
     major: '0'
     minor: '05'
     patch:
+    skip: true
 
   - user_agent_string: 'Nutscrape/1.0 (CP/M; 8-bit)'
     family: 'Nutscrape'
     major: '1'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Nutscrape/9.0 (CP/M; 8-bit)'
     family: 'Nutscrape'
     major: '9'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'SEC-SGHC225-C225UVDH1-NW.Browser3.01 (Google WAP Proxy/1.0)'
     family: 'Other'
@@ -67787,24 +67839,28 @@ test_cases:
     major: '0'
     minor: '9'
     patch:
+    skip: true
 
   - user_agent_string: 'ObjectsSearch/0.01 (ObjectsSearch; http://www.ObjectsSearch.com/bot.html; support@thesoftwareobjects.com)'
     family: 'ObjectsSearch'
     major: '0'
     minor: '01'
     patch:
+    skip: true
 
   - user_agent_string: 'ObjectsSearch/0.06 (ObjectsSearch; http://www.ObjectsSearch.com/bot.html; support@thesoftwareobjects.com)'
     family: 'ObjectsSearch'
     major: '0'
     minor: '06'
     patch:
+    skip: true
 
   - user_agent_string: 'ObjectsSearch/0.07 (ObjectsSearch; http://www.ObjectsSearch.com/bot.html; support@thesoftwareobjects.com)'
     family: 'ObjectsSearch'
     major: '0'
     minor: '07'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/4.7 (compatible; OffByOne; Windows 2000)'
     family: 'Other'
@@ -67847,6 +67903,7 @@ test_cases:
     major: '4'
     minor: '1'
     patch: '1'
+    skip: true
 
   - user_agent_string: 'Mozilla/4.5 (compatible; OmniWeb/4.3-v435; Mac_PowerPC)'
     family: 'Other'
@@ -72521,6 +72578,7 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'PHP version tracker'
     family: 'Other'
@@ -72575,6 +72633,7 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'POE-Component-Client-HTTP/0.510 (perl; N; POE; en; rv:0.510)'
     family: 'Other'
@@ -72641,18 +72700,21 @@ test_cases:
     major: '1'
     minor: '15'
     patch:
+    skip: true
 
   - user_agent_string: 'Python-urllib/2.0a1'
     family: 'Python-urllib'
     major: '2'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Python-urllib/2.0a1, Dowser/0.26 (http://dowser.sourceforge.net)'
     family: 'Python-urllib'
     major: '2'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Qarp-1.0'
     family: 'Other'
@@ -72677,6 +72739,7 @@ test_cases:
     major: '2'
     minor: '07'
     patch:
+    skip: true
 
   - user_agent_string: 'RPT-HTTPClient/0.3-3E'
     family: 'Other'
@@ -73961,6 +74024,7 @@ test_cases:
     major: '0'
     minor: '2'
     patch:
+    skip: true
 
   - user_agent_string: 'Search-Channel'
     family: 'Other'
@@ -74063,6 +74127,7 @@ test_cases:
     major: '1'
     minor: '1'
     patch:
+    skip: true
 
   - user_agent_string: 'SISLink'
     family: 'Other'
@@ -74165,6 +74230,7 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'SpaceBison/0.01 [fu] (Win67; X; Lolzor)'
     family: 'Other'
@@ -74183,18 +74249,21 @@ test_cases:
     major: '0'
     minor: '02'
     patch:
+    skip: true
 
   - user_agent_string: 'Space Bison/0.69 [fu] (Win72; incompatible)'
     family: 'Space Bison'
     major: '0'
     minor: '69'
     patch:
+    skip: true
 
   - user_agent_string: 'SpiderMan 3.0.1-2-11-111 (CP/M;8-bit)'
     family: 'SpiderMan'
     major: '3'
     minor: '0'
     patch: '1'
+    skip: true
 
   - user_agent_string: 'SquidClamAV_Redirector 1.6'
     family: 'Other'
@@ -74309,6 +74378,7 @@ test_cases:
     major: '1'
     minor: '4'
     patch:
+    skip: true
 
   - user_agent_string: 'TygoProwler (http://www.tygo.com/)'
     family: 'Other'
@@ -74321,60 +74391,70 @@ test_cases:
     major: '3'
     minor: '1'
     patch: '02'
+    skip: true
 
   - user_agent_string: 'OWG1 UP/4.1.20a UP.Browser/4.1.20a-XXXX UP.Link/5.1.2.12 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '4'
     minor: '1'
     patch: '20'
+    skip: true
 
   - user_agent_string: 'QC2135 UP.Browser/4.1.22b UP.Link/4.2.1.8 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '4'
     minor: '1'
     patch: '22'
+    skip: true
 
   - user_agent_string: 'MOT-85/01.04 UP.Browser/4.1.26m.737 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '4'
     minor: '1'
     patch: '26'
+    skip: true
 
   - user_agent_string: 'MOT-A-0A/00.06 UP.Browser/4.1.27a1 UP.Link/4.2.3.5h'
     family: 'UP.Browser'
     major: '4'
     minor: '1'
     patch: '27'
+    skip: true
 
   - user_agent_string: 'MOT-A-2D/00.02 UP.Browser/4.1.27a1 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '4'
     minor: '1'
     patch: '27'
+    skip: true
 
   - user_agent_string: 'MOT-A-86/00.00 UP.Browser/4.1.27a1 UP.Link/4.2.3.5h (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '4'
     minor: '1'
     patch: '27'
+    skip: true
 
   - user_agent_string: 'MOT-A-86/00.00 UP.Browser/4.1.27a1 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '4'
     minor: '1'
     patch: '27'
+    skip: true
 
   - user_agent_string: 'Motorola-T33/1.5.1a UP.Browser/5.0.1.7.c.2 (GUI) (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '5'
     minor: '0'
     patch: '1'
+    skip: true
 
   - user_agent_string: 'Alcatel-BG3/1.0 UP.Browser/5.0.3.1.2 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '5'
     minor: '0'
     patch: '3'
+    skip: true
 
   - user_agent_string: 'KDDI/CA23/UP. Browser/6.0.2.254 (GUI) MMP/1.1'
     family: 'Other'
@@ -74387,120 +74467,140 @@ test_cases:
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SAGEM-myX-5m/1.0 UP.Browser/6.1.0.6.1.c.3 (GUI) MMP/1.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SAMSUNG-SGH-E700/BSI UP.Browser/6.1.0.6 (GUI) MMP/1.0'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SAMSUNG-SGH-E700/BSI UP.Browser/6.1.0.6 (GUI) MMP/1.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SAMSUNG-SGH-E700-OLYMPIC2004/1.0 UP.Browser/6.1.0.6 (GUI) MMP/1.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SAMSUNG-SGH-X600/K3 UP.Browser/6.1.0.6 (GUI) MMP/1.0'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SIE-C60/12 UP.Browser/6.1.0.5.c.6 (GUI) MMP/1.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SIE-M55/11 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SIE-MC60/10 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SIE-MC60/10 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Browser/6.1.0.7.3 (GUI) MMP/1.0 UP.Link/5.1.1.5a'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SIE-S55/11 UP.Browser/6.1.0.5.c.2 (GUI) MMP/1.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SIE-S55/20 UP.Browser/6.1.0.5.c.6 (GUI) MMP/1.0 UP.Link/1.1 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'UP.Browser/6.1.0.1.140 (Google CHTML Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '1'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'KDDI-HI32 UP.Browser/6.2.0.5 (GUI) MMP/2.0'
     family: 'UP.Browser'
     major: '6'
     minor: '2'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SHARP-TQ-GX20/1.0 UP.Browser/6.2.0.1.185 (GUI) MMP/2.0'
     family: 'UP.Browser'
     major: '6'
     minor: '2'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'OPWV-SDK/62 UP.Browser/6.2.2.1.208 (GUI) MMP/2.0'
     family: 'UP.Browser'
     major: '6'
     minor: '2'
     patch: '2'
+    skip: true
 
   - user_agent_string: 'VM4050/132.037 UP.Browser/6.2.2.4.e.1.100 (GUI) MMP/2.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
     family: 'Googlebot'
     major: '2'
     minor: '1'
     patch:
+    skip: true
 
   - user_agent_string: 'LGE-VX7000/1.0 UP.Browser/6.2.3.1.174 (GUI) MMP/2.0 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '6'
     minor: '2'
     patch: '3'
+    skip: true
 
   - user_agent_string: 'SIE-CX65/12 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 (Google WAP Proxy/1.0)'
     family: 'UP.Browser'
     major: '7'
     minor: '0'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SIE-S65/25 UP.Browser/7.0.0.1.c.3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
     family: 'UP.Browser'
     major: '7'
     minor: '0'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'SEC-SGHX427M UP.Link/1.1 (Google WAP Proxy/1.0)'
     family: 'Other'
@@ -74513,12 +74613,14 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'UptimeBot'
     family: 'UptimeBot'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'User-Agent: Mozilla/5.0 (Windows; U; Windows; de-DE; rv:1.7.5)'
     family: 'Other'
@@ -74771,6 +74873,7 @@ test_cases:
     major: '4'
     minor: '1'
     patch:
+    skip: true
 
   - user_agent_string: 'wget 1.1'
     family: 'Other'
@@ -74783,12 +74886,14 @@ test_cases:
     major: '1'
     minor: '8'
     patch: '2'
+    skip: true
 
   - user_agent_string: 'Wget/1.9+cvs-stable (Red Hat modified)'
     family: 'Wget'
     major: '1'
     minor: '9'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.00; Window 98)'
     family: 'IE'
@@ -74801,6 +74906,7 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'WinWAP-PRO/3.1 (3.1.5.190) UP.Link/5.1.2.5 (Google WAP Proxy/1.0)'
     family: 'Other'
@@ -74819,6 +74925,7 @@ test_cases:
     major: '1'
     minor: '2'
     patch: '1'
+    skip: true
 
   - user_agent_string: 'WorldWideWeb-X/3.2 (+<a href="http://www.worldwideweb-x.com/">Web Directory</a>)'
     family: 'Other'
@@ -74831,12 +74938,14 @@ test_cases:
     major: '0'
     minor: '7'
     patch:
+    skip: true
 
   - user_agent_string: 'Wotbox/alpha0.6 (bot@wotbox.com; http://www.wotbox.com)'
     family: 'Wotbox'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'www.WebSearch.com.au'
     family: 'Other'
@@ -74873,6 +74982,7 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Yandex/1.01.001 (compatible; Win16; I)'
     family: 'Other'
@@ -74885,96 +74995,112 @@ test_cases:
     major: '4'
     minor: '12'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.8.1b2) Gecko/20060821 BonEcho/2.0b2 (Debian-1.99+2.0b2+dfsg-1)'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'b2'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1b2) Gecko/20060821 BonEcho/2.0b2'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'b2'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1b2) Gecko/20060826 BonEcho/2.0b2'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'b2'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux x86_64; en-GB; rv:1.8.1b1) Gecko/20060601 BonEcho/2.0b1 (Ubuntu-edgy)'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'b1'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1a3) Gecko/20060526 BonEcho/2.0a3'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'a3'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'a2'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'a2'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X Mach-O; en-US; rv:1.8.1a2) Gecko/20060512 BonEcho/2.0a2'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: 'a2'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; OpenBSD ppc; en-US; rv:1.8.1.9) Gecko/20070223 BonEcho/2.0.0.9'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.8pre) Gecko/20071012 BonEcho/2.0.0.8pre'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061129 BonEcho/2.0'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Win95; en-US; rv:1.8.1) Gecko/20061125 BonEcho/2.0'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20061209 BonEcho/2.0'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1) Gecko/20061026 BonEcho/2.0'
     family: 'Bon Echo'
     major: '2'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9a1) Gecko/20061128 BonEcho/0.7b1'
     family: 'Bon Echo'
     major: '0'
     minor: '7'
     patch: 'b1'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; zh-CN) AppleWebKit/533+ (KHTML, like Gecko)'
     family: 'Other'
@@ -74993,10 +75119,12 @@ test_cases:
     major: '412'
     minor: '6'
     patch: '2'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; es-es) AppleWebKit/531.22.7 (KHTML, like Gecko)'
     family: 'Apple Mail'
     major: '531'
     minor: '22'
     patch: '7'
+    skip: true
 

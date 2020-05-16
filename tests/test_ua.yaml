@@ -4,84 +4,98 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Luminary/70 CFNetwork/978.0.7 Darwin/18.5.0'
     family: 'Luminary'
     major: '70'
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Luminary/70 CFNetwork/975.0.3 Darwin/18.2.0'
     family: 'Luminary'
     major: '70'
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Luminary/1.0.3 build 71/iOS 12.2'
     family: 'Luminary'
     major: '1'
     minor: '0'
     patch: '3'
+    skip: true
 
   - user_agent_string: 'Luminary/1.0.2 build 57/Android SDK 28'
     family: 'Luminary'
     major: '1'
     minor: '0'
     patch: '2'
+    skip: true
 
   - user_agent_string: 'Luminary/1.0.2 build 57/Android SDK 23'
     family: 'Luminary'
     major: '1'
     minor: '0'
     patch: '2'
+    skip: true
 
   - user_agent_string: 'Luminary/70 CFNetwork/976 Darwin/18.2.0'
     family: 'Luminary'
     major: '70'
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Luminary/70 CFNetwork/978.0.7 Darwin/18.6.0'
     family: 'Luminary'
     major: '70'
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Luminary/1.0.2 build 57/Android SDK 26'
     family: 'Luminary'
     major: '1'
     minor: '0'
     patch: '2'
+    skip: true
 
   - user_agent_string: 'LuminaryStage/3311 CFNetwork/978.0.7 Darwin/18.5.0'
     family: 'Luminary'
     major: '3311'
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'fakeLuminary/1.0'
     family: 'Other'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
     family: 'Apple Watch App'
     major: '3'
     minor: '4'
     patch:
+    skip: true
 
   - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
     family: 'Apple Watch App'
     major: '4'
     minor: '4'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'
     major: '2'
     minor: '5'
     patch: '1'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Amazon Silk'
@@ -226,36 +240,42 @@ test_cases:
     major: '10'
     minor: '0'
     patch: '9'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (PlayBook; U; RIM Tablet OS 1.0.0; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/0.0.1 Safari/534.8+'
     family: 'BlackBerry WebKit'
     major: '1'
     minor: '0'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-GB) AppleWebKit/534.1+ (KHTML, like Gecko) Version/6.0.0.141 Mobile Safari/534.1+'
     family: 'BlackBerry WebKit'
     major: '6'
     minor: '0'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en-US) AppleWebKit/534.1  (KHTML, like Gecko) Version/6.0.0.91 Mobile Safari/534.1 '
     family: 'BlackBerry WebKit'
     major: '6'
     minor: '0'
     patch: '0'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; BOLT/2.101) AppleWebKit/530  (KHTML, like Gecko) Version/4.0 Safari/530.17'
     family: 'BOLT'
     major: '2'
     minor: '101'
     patch:
+    skip: true
 
   - user_agent_string: 'Bunjalloo/0.7.6(Nintendo DS;U;en)'
     family: 'Bunjalloo'
     major: '0'
     minor: '7'
     patch: '6'
+    skip: true
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; chromeframe; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729)'
     family: 'IE'
@@ -268,24 +288,28 @@ test_cases:
     major: '2'
     minor: '8'
     patch: '5'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (compatible; Windows NT 6.1; Catchpoint) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
     family: 'Catchpoint'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (compatible; Windows NT 6.1; Catchpoint bot) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
     family: 'Catchpoint bot'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 CreativeCloud/4.8.1.435'
     family: 'Adobe CreativeCloud'
     major: '4'
     minor: '8'
     patch: '1'
+    skip: true
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; chromeframe/11.0.660.0)'
     family: 'Chrome Frame'
@@ -364,18 +388,21 @@ test_cases:
     major: '1'
     minor: '1'
     patch:
+    skip: true
 
   - user_agent_string: 'LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)'
     family: 'LinkedInBot'
     major: '1'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'Google (+https://developers.google.com/+/web/snippet/)'
     family: 'GooglePlusBot'
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'Firefox/11.0 (via ggpht.com GoogleImageProxy)'
     family: 'GmailImageProxy'
@@ -388,12 +415,14 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+    skip: true
 
   - user_agent_string: 'WhatsApp/2.17.70 W'
     family: 'WhatsApp'
     major: '2'
     minor: '17'
     patch: '70'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.1pre) Gecko/20090717 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1pre'
     family: 'Firefox (Shiretoko)'
@@ -442,6 +471,7 @@ test_cases:
     major: '2'
     minor: '1'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.6 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)'
     family: 'Espial'
@@ -532,18 +562,21 @@ test_cases:
     major: '6'
     minor: '0'
     patch: '43'
+    skip: true
 
   - user_agent_string: 'Java/1.7.0_71'
     family: 'Java'
     major: '7'
     minor: '0'
     patch: '71'
+    skip: true
 
   - user_agent_string: 'Java/1.8.0_25'
     family: 'Java'
     major: '8'
     minor: '0'
     patch: '25'
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)'
     family: 'Kindle'
@@ -1632,6 +1665,7 @@ test_cases:
     minor: '18'
     patch: '5'
     patch_minor:
+    ignore: true
 
   - user_agent_string: 'Safari/7536.30.1 CFNetwork/520.5.1 Darwin/11.4.2 (i386) (MacBook3,1)'
     family: 'Safari'
@@ -1639,6 +1673,7 @@ test_cases:
     minor: '30'
     patch: '1'
     patch_minor:
+    ignore: true
 
   - user_agent_string: 'Reader Notifier/5 CFNetwork/596.3.3 Darwin/12.3.0 (x86_64) (MacBookPro7,1)'
     family: 'Reader Notifier'
@@ -1653,6 +1688,7 @@ test_cases:
     minor: '71'
     patch:
     patch_minor:
+    ignore: true
 
   - user_agent_string: 'DEPoker-iPad/1.0.2 CFNetwork/548.1.4 Darwin/11.0.0'
     family: 'DEPoker'
@@ -2788,6 +2824,7 @@ test_cases:
     major:
     minor:
     patch:
+    skip: true
 
   - user_agent_string: 'NutchCVS/0.06-dev (Nutch running at UW; http://www.nutch.org/docs/en/bot.html; sycrawl@cs.washington.edu)'
     family: 'NutchCVS'
@@ -3778,6 +3815,7 @@ test_cases:
     major: '0'
     minor: '01'
     patch:
+    skip: true
 
   - user_agent_string: 'Mozilla/5.0 (compatible; HiveCrawler/1.2 http://www.businessinsider.com)'
     family: 'HiveCrawler'

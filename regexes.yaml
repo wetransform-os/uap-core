@@ -57,109 +57,149 @@ user_agent_parsers:
 
   # CFNetwork Podcast catcher Applications
   - regex: '^(Luminary)[Stage]+/(\d+) CFNetwork'
+    skip: true
   - regex: '(ESPN)[%20| ]+Radio/(\d+)\.(\d+)\.(\d+) CFNetwork'
+    skip: true
   - regex: '(Antenna)/(\d+) CFNetwork'
     family_replacement: 'AntennaPod'
+    skip: true
   - regex: '(TopPodcasts)Pro/(\d+) CFNetwork'
+    skip: true
   - regex: '(MusicDownloader)Lite/(\d+)\.(\d+)\.(\d+) CFNetwork'
+    skip: true
   - regex: '^(.*)-iPad\/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork'
+    skip: true
   - regex: '^(.*)-iPhone/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork'
+    skip: true
   - regex: '^(.*)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork'
+    skip: true
 
   # Podcast catchers
   - regex: '^(Luminary)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    skip: true
   - regex: '(espn\.go)'
     family_replacement: 'ESPN'
+    skip: true
   - regex: '(espnradio\.com)'
     family_replacement: 'ESPN'
+    skip: true
   - regex: 'ESPN APP$'
     family_replacement: 'ESPN'
+    skip: true
   - regex: '(audioboom\.com)'
     family_replacement: 'AudioBoom'
+    skip: true
   - regex: ' (Rivo) RHYTHM'
+    skip: true
 
   # @note: iOS / OSX Applications
   - regex: '(CFNetwork)(?:/(\d+)\.(\d+)(?:\.(\d+)|)|)'
     family_replacement: 'CFNetwork'
+    skip: true
 
   # Pingdom
   - regex: '(Pingdom\.com_bot_version_)(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
+    skip: true
   # 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
+    ignore: true
 
   # PTST / WebPageTest.org crawlers
   - regex: ' (PTST)/(\d+)(?:\.(\d+)|)$'
     family_replacement: 'WebPageTest.org bot'
+    ignore: true
 
   # Datanyze.com spider
   - regex: 'X11; (Datanyze); Linux'
+    ignore: true
 
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
+    skip: true
 
   # Tableau
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
+    skip: true
 
   # Adobe CreativeCloud
   - regex: 'AppleWebKit/\d+\.\d+.* Safari.* (CreativeCloud)/(\d+)\.(\d+).(\d+)'
     family_replacement: 'Adobe CreativeCloud'
+    ignore: true
 
   # Salesforce
   - regex: '(Salesforce)(?:.)\/(\d+)\.(\d?)'
+    skip: true
 
   #StatusCake
   - regex: '(\(StatusCake\))'
     family_replacement: 'StatusCakeBot'
+    ignore: true
 
   # Facebook
   - regex: '(facebookexternalhit)/(\d+)\.(\d+)'
     family_replacement: 'FacebookBot'
+    skip: true
 
   # Google Plus
   - regex: 'Google.*/\+/web/snippet'
     family_replacement: 'GooglePlusBot'
+    skip: true
 
   # Gmail
   - regex: 'via ggpht\.com GoogleImageProxy'
     family_replacement: 'GmailImageProxy'
+    ignore: true
 
   # Yahoo
   - regex: 'YahooMailProxy; https://help\.yahoo\.com/kb/yahoo-mail-proxy-SLN28749\.html'
     family_replacement: 'YahooMailProxy'
+    skip: true
 
   # Twitter
   - regex: '(Twitterbot)/(\d+)\.(\d+)'
     family_replacement: 'Twitterbot'
+    skip: true
 
   # Bots Pattern 'name/0.0.0'
   - regex: '/((?:Ant-|)Nutch|[A-z]+[Bb]ot|[A-z]+[Ss]pider|Axtaris|fetchurl|Isara|ShopSalad|Tailsweep)[ \-](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    skip: true
   # Bots Pattern 'name/0.0.0'
   - regex: '\b(008|Altresium|Argus|BaiduMobaider|BoardReader|DNSGroup|DataparkSearch|EDI|Goodzer|Grub|INGRID|Infohelfer|LinkedInBot|LOOQ|Nutch|OgScrper|PathDefender|Peew|PostPost|Steeler|Twitterbot|VSE|WebCrunch|WebZIP|Y!J-BR[A-Z]|YahooSeeker|envolk|sproose|wminer)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    skip: true
 
   # MSIECrawler
   - regex: '(MSIE) (\d+)\.(\d+)([a-z]\d|[a-z]|);.* MSIECrawler'
     family_replacement: 'MSIECrawler'
+    skip: true
 
   # DAVdroid
   - regex: '(DAVdroid)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    skip: true
 
   # Downloader ...
   - regex: '(Google-HTTP-Java-Client|Apache-HttpClient|Go-http-client|scalaj-http|http%20client|Python-urllib|HttpMonitor|TLSProber|WinHTTP|JNLP|okhttp|aihttp|reqwest|axios|unirest-(?:java|python|ruby|nodejs|php|net))(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+    skip: true
 
   # Pinterestbot
   - regex: '(Pinterest(?:bot|))/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)[;\s(]+\+https://www.pinterest.com/bot.html'
     family_replacement: 'Pinterestbot'
+    skip: true
 
   # Bots
   - regex: '(CSimpleSpider|Cityreview Robot|CrawlDaddy|CrawlFire|Finderbots|Index crawler|Job Roboter|KiwiStatus Spider|Lijit Crawler|QuerySeekerSpider|ScollSpider|Trends Crawler|USyd-NLP-Spider|SiteCat Webbot|BotName\/\$BotVersion|123metaspider-Bot|1470\.net crawler|50\.nu|8bo Crawler Bot|Aboundex|Accoona-[A-z]{1,30}-Agent|AdsBot-Google(?:-[a-z]{1,30}|)|altavista|AppEngine-Google|archive.{0,30}\.org_bot|archiver|Ask Jeeves|[Bb]ai[Dd]u[Ss]pider(?:-[A-Za-z]{1,30})(?:-[A-Za-z]{1,30}|)|bingbot|BingPreview|blitzbot|BlogBridge|Bloglovin|BoardReader Blog Indexer|BoardReader Favicon Fetcher|boitho.com-dc|BotSeer|BUbiNG|\b\w{0,30}favicon\w{0,30}\b|\bYeti(?:-[a-z]{1,30}|)|Catchpoint(?: bot|)|[Cc]harlotte|Checklinks|clumboot|Comodo HTTP\(S\) Crawler|Comodo-Webinspector-Crawler|ConveraCrawler|CRAWL-E|CrawlConvera|Daumoa(?:-feedfetcher|)|Feed Seeker Bot|Feedbin|findlinks|Flamingo_SearchEngine|FollowSite Bot|furlbot|Genieo|gigabot|GomezAgent|gonzo1|(?:[a-zA-Z]{1,30}-|)Googlebot(?:-[a-zA-Z]{1,30}|)|Google SketchUp|grub-client|gsa-crawler|heritrix|HiddenMarket|holmes|HooWWWer|htdig|ia_archiver|ICC-Crawler|Icarus6j|ichiro(?:/mobile|)|IconSurf|IlTrovatore(?:-Setaccio|)|InfuzApp|Innovazion Crawler|InternetArchive|IP2[a-z]{1,30}Bot|jbot\b|KaloogaBot|Kraken|Kurzor|larbin|LEIA|LesnikBot|Linguee Bot|LinkAider|LinkedInBot|Lite Bot|Llaut|lycos|Mail\.RU_Bot|masscan|masidani_bot|Mediapartners-Google|Microsoft .{0,30} Bot|mogimogi|mozDex|MJ12bot|msnbot(?:-media {0,2}|)|msrbot|Mtps Feed Aggregation System|netresearch|Netvibes|NewsGator[^/]{0,30}|^NING|Nutch[^/]{0,30}|Nymesis|ObjectsSearch|OgScrper|Orbiter|OOZBOT|PagePeeker|PagesInventory|PaxleFramework|Peeplo Screenshot Bot|PlantyNet_WebRobot|Pompos|Qwantify|Read%20Later|Reaper|RedCarpet|Retreiver|Riddler|Rival IQ|scooter|Scrapy|Scrubby|searchsight|seekbot|semanticdiscovery|SemrushBot|Simpy|SimplePie|SEOstats|SimpleRSS|SiteCon|Slackbot-LinkExpanding|Slack-ImgProxy|Slurp|snappy|Speedy Spider|Squrl Java|Stringer|TheUsefulbot|ThumbShotsBot|Thumbshots\.ru|Tiny Tiny RSS|Twitterbot|WhatsApp|URL2PNG|Vagabondo|VoilaBot|^vortex|Votay bot|^voyager|WASALive.Bot|Web-sniffer|WebThumb|WeSEE:[A-z]{1,30}|WhatWeb|WIRE|WordPress|Wotbox|www\.almaden\.ibm\.com|Xenu(?:.s|) Link Sleuth|Xerka [A-z]{1,30}Bot|yacy(?:bot|)|YahooSeeker|Yahoo! Slurp|Yandex\w{1,30}|YodaoBot(?:-[A-z]{1,30}|)|YottaaMonitor|Yowedo|^Zao|^Zao-Crawler|ZeBot_www\.ze\.bz|ZooShot|ZyBorg|ArcGIS Hub Indexer)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)'
+    skip: true
+  # XXX replacement for above skipped expression to prevent wrong matches
+  - regex: '(Catchpoint(?: bot|)|GomezAgent|Rival IQ|scooter|lycos|YahooSeeker)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)'
+    ignore: true
 
   # AWS S3 Clients
   # must come before "Bots General matcher" to catch "boto"/"boto3" before "bot"
   - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    skip: true
 
   # SAFE FME
   - regex: '(FME)\/(\d+\.\d+)\.(\d+)\.(\d+)'
@@ -179,24 +219,31 @@ user_agent_parsers:
   # Facebook Messenger must go before Facebook
   - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
     family_replacement: 'Facebook Messenger'
+    ignore: true
   # Facebook
   - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Facebook'
+    ignore: true
   # Sometimes Facebook does not specify a version (FBAV)
   - regex: '\[FB.*;'
     family_replacement: 'Facebook'
+    ignore: true
 
   # Bots General matcher 'name/0.0'
   - regex: '(?:\/[A-Za-z0-9\.]+|) {0,5}([A-Za-z0-9 \-_\!\[\]:]{0,50}(?:[Aa]rchiver|[Ii]ndexer|[Ss]craper|[Bb]ot|[Ss]pider|[Cc]rawl[a-z]{0,50}))[/ ](\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    ignore: true
   # Bots containing bot(but not CUBOT)
   - regex: '((?:[A-Za-z][A-Za-z0-9 -]{0,50}|)[^C][^Uu][Bb]ot)\b(?:(?:[ /]| v)(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+    ignore: true
   # Bots containing spider|scrape|Crawl
   - regex: '((?:[A-z0-9]{1,50}|[A-z\-]{1,50} ?|)(?: the |)(?:[Ss][Pp][Ii][Dd][Ee][Rr]|[Ss]crape|[Cc][Rr][Aa][Ww][Ll])[A-z0-9]{0,50})(?:(?:[ /]| v)(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+    ignore: true
 
   # HbbTV standard defines what features the browser should understand.
   # but it's like targeting "HTML5 browsers", effective browser support depends on the model
   # See os_parsers if you want to target a specific TV
   - regex: '(HbbTV)/(\d+)\.(\d+)\.(\d+) \('
+    skip: true
 
   # must go before Firefox to catch Chimera/SeaMonkey/Camino/Waterfox
   - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*|)'
@@ -208,31 +255,41 @@ user_agent_parsers:
   # Social Networks (non-Facebook)
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
+    skip: true
   - regex: '(Pinterest)(?: for Android(?: Tablet|)|)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    skip: true
   # Instagram app
   - regex: 'Mozilla.*Mobile.*(Instagram).(\d+)\.(\d+)\.(\d+)'
+    skip: true
   # Flipboard app
   - regex: 'Mozilla.*Mobile.*(Flipboard).(\d+)\.(\d+)\.(\d+)'
+    skip: true
   # Flipboard-briefing app
   - regex: 'Mozilla.*Mobile.*(Flipboard-Briefing).(\d+)\.(\d+)\.(\d+)'
+    skip: true
   # Onefootball app
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
+    skip: true
   # Snapchat
   - regex: '(Snapchat)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    skip: true
   # Twitter
   - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
     family_replacement: 'Twitter'
+    skip: true
 
   # aspiegel.com spider (owned by Huawei)
   - regex: 'Mozilla.*Mobile.*AspiegelBot'
     family_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Smartphone'
+    skip: true
 
   - regex: 'AspiegelBot'
     family_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Desktop'
+    skip: true
 
   # Basilisk
   - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
@@ -287,11 +344,13 @@ user_agent_parsers:
 
   - regex: '(MyIBrow)/(\d+)\.(\d+)'
     family_replacement: 'My Internet Browser'
+    skip: true
 
   # UC Browser
   # we need check it before opera. In other case case UC Browser detected look like Opera Mini
   - regex: '(UC? ?Browser|UCWEB|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'UC Browser'
+    ignore: true
 
   # Opera will stop at 9.80 and hide the real version in the Version string.
   # see: http://dev.opera.com/articles/view/opera-ua-string-changes/
@@ -335,6 +394,7 @@ user_agent_parsers:
   # http://luakit.org/projects/luakit/
   - regex: '(luakit)'
     family_replacement: 'LuaKit'
+    skip: true
 
   # Snowshoe
   - regex: '(Snowshoe)/(\d+)\.(\d+).(\d+)'
@@ -342,6 +402,7 @@ user_agent_parsers:
   # Lightning (for Thunderbird)
   # http://www.mozilla.org/projects/calendar/lightning/
   - regex: 'Gecko/\d+ (Lightning)/(\d+)\.(\d+)\.?((?:[ab]?\d+[a-z]*)|(?:\d*))'
+    skip: true
 
   # Swiftfox
   - regex: '(Firefox)/(\d+)\.(\d+)\.(\d+(?:pre|)) \(Swiftfox\)'
@@ -368,29 +429,39 @@ user_agent_parsers:
 
   - regex: '(Comodo_Dragon)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Comodo Dragon'
+    skip: true
 
   - regex: '(Symphony) (\d+).(\d+)'
+    skip: true
 
   - regex: 'PLAYSTATION 3.+WebKit'
     family_replacement: 'NetFront NX'
+    skip: true
   - regex: 'PLAYSTATION 3'
     family_replacement: 'NetFront'
+    skip: true
   - regex: '(PlayStation Portable)'
     family_replacement: 'NetFront'
+    skip: true
   - regex: '(PlayStation Vita)'
     family_replacement: 'NetFront NX'
+    skip: true
 
   - regex: 'AppleWebKit.+ (NX)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'NetFront NX'
+    skip: true
   - regex: '(Nintendo 3DS)'
     family_replacement: 'NetFront NX'
+    skip: true
 
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Amazon Silk'
+    ignore: true
 
   # @ref: http://www.puffinbrowser.com
   - regex: '(Puffin)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    ignore: true
 
   # Edge Mobile
   - regex: 'Windows Phone .*(Edge)/(\d+)\.(\d+)'
@@ -405,44 +476,55 @@ user_agent_parsers:
   # Seznam.cz browser (based on WebKit)
   - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Seznam prohlížeč'
+    ignore: true
 
   # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Coc Coc'
+    ignore: true
 
   # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
   - regex: '(baidubrowser)[/\s](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Baidu Browser'
+    ignore: true
   - regex: '(FlyFlow)/(\d+)\.(\d+)'
     family_replacement: 'Baidu Explorer'
+    skip: true
 
   # MxBrowser is Maxthon. Must go before Mobile Chrome for Android
   - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Maxthon'
+    ignore: true
 
   # Crosswalk must go before Mobile Chrome for Android
   - regex: '(Crosswalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    ignore: true
 
   # LINE https://line.me/en/
   # Must go before Mobile Chrome for Android
   - regex: '(Line)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'LINE'
+    ignore: true
 
   # MiuiBrowser should got before Mobile Chrome for Android
   - regex: '(MiuiBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'MiuiBrowser'
+    skip: true
 
   # Mint Browser should got before Mobile Chrome for Android
   - regex: '(Mint Browser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mint Browser'
+    skip: true
 
   # TopBuzz Android must go before Chrome Mobile WebView
   - regex: '(TopBuzz)/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
+    skip: true
 
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
+    ignore: true
 
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
@@ -455,8 +537,10 @@ user_agent_parsers:
   # Chrome Mobile
   - regex: 'Version/.+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
+    ignore: true
   - regex: '; wv\).+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
+    ignore: true
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
   - regex: '(CriOS)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
@@ -473,20 +557,25 @@ user_agent_parsers:
   # Tizen Browser (second case included in browser/major.minor regex)
   - regex: '(SLP Browser)/(\d+)\.(\d+)'
     family_replacement: 'Tizen Browser'
+    skip: true
 
   # Sogou Explorer 2.X
   - regex: '(SE 2\.X) MetaSr (\d+)\.(\d+)'
     family_replacement: 'Sogou Explorer'
+    skip: true
 
   # Rackspace Monitoring
   - regex: '(Rackspace Monitoring)/(\d+)\.(\d+)'
     family_replacement: 'RackspaceBot'
+    skip: true
 
   # PRTG Network Monitoring
   - regex: '(PRTG Network Monitor)'
+    skip: true
 
   # PyAMF
   - regex: '(PyAMF)/(\d+)\.(\d+)\.(\d+)'
+    skip: true
 
   # Yandex Browser
   - regex: '(YaBrowser)/(\d+)\.(\d+)\.(\d+)'
@@ -495,16 +584,20 @@ user_agent_parsers:
   # Mail.ru Amigo/Internet Browser (Chromium-based)
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+).* MRCHROME'
     family_replacement: 'Mail.ru Chromium Browser'
+    ignore: true
 
   # AOL Browser (IE-based)
   - regex: '(AOL) (\d+)\.(\d+); AOLBuild (\d+)'
+    ignore: true
 
   # Podcast catcher Applications using iTunes
   - regex: '(PodCruncher|Downcast)[ /]?(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+    skip: true
 
   # Box Notes https://www.box.com/resources/downloads
   # Must be before Electron
   - regex: ' (BoxNotes)/(\d+)\.(\d+)\.(\d+)'
+    ignore: true
 
   # Whale
   - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)'
@@ -515,10 +608,12 @@ user_agent_parsers:
 
   # 1Password
   - regex: '(1Password)/(\d+)\.(\d+)\.(\d+)'
+    ignore: true
 
   # Ghost
   # @ref: http://www.ghost.org
   - regex: '(Ghost)/(\d+)\.(\d+)\.(\d+)'
+    skip: true
 
   #### END SPECIAL CASES TOP ####
 
@@ -536,57 +631,75 @@ user_agent_parsers:
 
   # Browser/major_version.minor_version.beta_version
   - regex: '\b(MobileIron|FireWeb|Jasmine|ANTGalio|Midori|Fresco|Lobo|PaleMoon|Maxthon|Lynx|OmniWeb|Dillo|Camino|Demeter|Fluid|Fennec|Epiphany|Shiira|Sunrise|Spotify|Flock|Netscape|Lunascape|WebPilot|NetFront|Netfront|Konqueror|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|Opera Mini|iCab|NetNewsWire|ThunderBrowse|Iris|UP\.Browser|Bunjalloo|Google Earth|Raven for Mac|Openwave|MacOutlook|Electron|OktaMobile)/(\d+)\.(\d+)\.(\d+)'
+    skip: true
+  # XXX replacement for above skipped expression w/ reduced matches
+  - regex: '\b(Netscape|Konqueror|Opera Mini)/(\d+)\.(\d+)\.(\d+)'
+  # XXX replacement for above skipped expression to prevent wrong matches
+  - regex: '\b(MobileIron|Midori|Maxthon|Spotify|Lunascape|NetFront|Netfront|Iron|Sleipnir|Galeon|Electron|OktaMobile)/(\d+)\.(\d+)\.(\d+)'
+    ignore: true
 
   # Outlook 2007
   - regex: 'Microsoft Office Outlook 12\.\d+\.\d+|MSOffice 12'
     family_replacement: 'Outlook'
     v1_replacement: '2007'
+    ignore: true
 
   # Outlook 2010
   - regex: 'Microsoft Outlook 14\.\d+\.\d+|MSOffice 14'
     family_replacement: 'Outlook'
     v1_replacement: '2010'
+    ignore: true
 
   # Outlook 2013
   - regex: 'Microsoft Outlook 15\.\d+\.\d+'
     family_replacement: 'Outlook'
     v1_replacement: '2013'
+    ignore: true
 
   # Outlook 2016
   - regex: 'Microsoft Outlook (?:Mail )?16\.\d+\.\d+|MSOffice 16'
     family_replacement: 'Outlook'
     v1_replacement: '2016'
+    ignore: true
 
   # Word 2014
   - regex: 'Microsoft Office (Word) 2014'
+    skip: true
 
   # Windows Live Mail
   - regex: 'Outlook-Express\/7\.0.*'
     family_replacement: 'Windows Live Mail'
+    ignore: true
 
   # Apple Air Mail
   - regex: '(Airmail) (\d+)\.(\d+)(?:\.(\d+)|)'
+    skip: true
 
   # Thunderbird
   - regex: '(Thunderbird)/(\d+)\.(\d+)(?:\.(\d+(?:pre|))|)'
     family_replacement: 'Thunderbird'
+    skip: true
 
   # Postbox
   - regex: '(Postbox)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Postbox'
+    skip: true
 
   # Barca
   - regex: '(Barca(?:Pro)?)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Barca'
+    skip: true
 
   # Lotus Notes
   - regex: '(Lotus-Notes)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Lotus Notes'
+    skip: true
 
   # Superhuman Mail Client
   # @ref: https://www.superhuman.com
   - regex: 'Superhuman'
     family_replacement: 'Superhuman'
+    skip: true
 
   # Vivaldi uses "Vivaldi"
   - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
@@ -599,10 +712,12 @@ user_agent_parsers:
   # Brave Browser https://brave.com/
   - regex: '(brave)/(\d+)\.(\d+)\.(\d+) Chrome'
     family_replacement: 'Brave'
+    ignore: true
 
   # Iron Browser ~since version 50
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)[\d.]* Iron[^/]'
     family_replacement: 'Iron'
+    ignore: true
 
   # Dolphin Browser
   # @ref: http://www.dolphin.com
@@ -614,12 +729,20 @@ user_agent_parsers:
 
   # Evolution Mail CardDav/CalDav integration
   - regex: '(Evolution)/(\d+)\.(\d+)\.(\d+\.\d+)'
+    skip: true
 
   # Roundcube Mail CardDav plugin
   - regex: '(RCM CardDAV plugin)/(\d+)\.(\d+)\.(\d+(?:-dev|))'
+    skip: true
 
   # Browser/major_version.minor_version
   - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    skip: true
+  # XXX replacement for above skipped expression w/ reduced matches
+  - regex: '(Netscape|Opera Mini|Opera|Konqueror)/(\d+)\.(\d+)(?:\.(\d+)|)'
+  # XXX replacement for above skipped expression to prevent wrong matches
+  - regex: '(Skyfire|Midori|Maxthon|NetFront|Netfront|Lunascape|Sleipnir|Galeon|qutebrowser|BOLT|Otter|QupZilla|kmail2|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    ignore: true
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
@@ -638,82 +761,137 @@ user_agent_parsers:
 
   # Baca Berita App News Reader
   - regex: '(BacaBerita App)\/(\d+)\.(\d+)\.(\d+)'
+    skip: true
 
   # Podcast catchers
   - regex: '^(bPod|Pocket Casts|Player FM)$'
+    skip: true
   - regex: '^(AlexaMediaPlayer|VLC)/(\d+)\.(\d+)\.([^.\s]+)'
+    skip: true
   - regex: '^(AntennaPod|WMPlayer|Zune|Podkicker|Radio|ExoPlayerDemo|Overcast|PocketTunes|NSPlayer|okhttp|DoggCatcher|QuickNews|QuickTime|Peapod|Podcasts|GoldenPod|VLC|Spotify|Miro|MediaGo|Juice|iPodder|gPodder|Banshee)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    ignore: true
   - regex: '^(Peapod|Liferea)/([^.\s]+)\.([^.\s]+|)\.?([^.\s]+|)'
+    skip: true
   - regex: '^(bPod|Player FM) BMID/(\S+)'
+    skip: true
   - regex: '^(Podcast ?Addict)/v(\d+) '
+    skip: true
   - regex: '^(Podcast ?Addict) '
     family_replacement: 'PodcastAddict'
+    skip: true
   - regex: '(Replay) AV'
+    skip: true
   - regex: '(VOX) Music Player'
+    skip: true
   - regex: '(CITA) RSS Aggregator/(\d+)\.(\d+)'
+    skip: true
   - regex: '(Pocket Casts)$'
+    skip: true
   - regex: '(Player FM)$'
+    skip: true
   - regex: '(LG Player|Doppler|FancyMusic|MediaMonkey|Clementine) (\d+)\.(\d+)\.?([^.\s]+|)\.?([^.\s]+|)'
+    skip: true
   - regex: '(philpodder)/(\d+)\.(\d+)\.?([^.\s]+|)\.?([^.\s]+|)'
+    skip: true
   - regex: '(Player FM|Pocket Casts|DoggCatcher|Spotify|MediaMonkey|MediaGo|BashPodder)'
+    skip: true
   - regex: '(QuickTime)\.(\d+)\.(\d+)\.(\d+)'
+    skip: true
   - regex: '(Kinoma)(\d+)'
+    skip: true
   - regex: '(Fancy) Cloud Music (\d+)\.(\d+)'
     family_replacement: 'FancyMusic'
+    skip: true
   - regex: 'EspnDownloadManager'
     family_replacement: 'ESPN'
+    skip: true
   - regex: '(ESPN) Radio (\d+)\.(\d+)(?:\.(\d+)|) ?(?:rv:(\d+)|) '
+    skip: true
   - regex: '(podracer|jPodder) v ?(\d+)\.(\d+)(?:\.(\d+)|)'
+    skip: true
   - regex: '(ZDM)/(\d+)\.(\d+)[; ]?'
+    skip: true
   - regex: '(Zune|BeyondPod) (\d+)(?:\.(\d+)|)[\);]'
+    skip: true
   - regex: '(WMPlayer)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    skip: true
   - regex: '^(Lavf)'
     family_replacement: 'WMPlayer'
+    skip: true
   - regex: '^(RSSRadio)[ /]?(\d+|)'
+    skip: true
   - regex: '(RSS_Radio) (\d+)\.(\d+)'
     family_replacement: 'RSSRadio'
+    skip: true
   - regex: '(Podkicker) \S+/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Podkicker'
+    skip: true
   - regex: '^(HTC) Streaming Player \S+ / \S+ / \S+ / (\d+)\.(\d+)(?:\.(\d+)|)'
+    skip: true
   - regex: '^(Stitcher)/iOS'
+    skip: true
   - regex: '^(Stitcher)/Android'
+    skip: true
   - regex: '^(VLC) .*version (\d+)\.(\d+)\.(\d+)'
+    skip: true
   - regex: ' (VLC) for'
+    skip: true
   - regex: '(vlc)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'VLC'
+    skip: true
   - regex: '^(foobar)\S+/([^.\s]+)\.([^.\s]+|)\.?([^.\s]+|)'
+    skip: true
   - regex: '^(Clementine)\S+ ([^.\s]+)\.([^.\s]+|)\.?([^.\s]+|)'
+    skip: true
   - regex: '(amarok)/([^.\s]+)\.([^.\s]+|)\.?([^.\s]+|)'
     family_replacement: 'Amarok'
+    skip: true
   - regex: '(Custom)-Feed Reader'
+    skip: true
 
   # Browser major_version.minor_version.beta_version (space instead of slash)
   - regex: '(iRider|Crazy Browser|SkipStone|iCab|Lunascape|Sleipnir|Maemo Browser) (\d+)\.(\d+)\.(\d+)'
+    skip: true
+  # XXX replacement for above skipped expression to prevent wrong matches
+  - regex: '(iRider|Crazy Browser|Lunascape|Sleipnir) (\d+)\.(\d+)\.(\d+)'
+    ignore: true
   # Browser major_version.minor_version (space instead of slash)
   - regex: '(iCab|Lunascape|Opera|Android|Jasmine|Polaris|Microsoft SkyDriveSync|The Bat!) (\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    skip: true
+  # XXX replacement for above skipped expression w/ reduced matches
+  - regex: '(Opera) (\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+  # XXX replacement for above skipped expression to prevent wrong matches
+  - regex: '(Lunascape|Android) (\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    ignore: true
 
   # Kindle WebKit
   - regex: '(Kindle)/(\d+)\.(\d+)'
+    skip: true
 
   # weird android UAs
   - regex: '(Android) Donut'
     v1_replacement: '1'
     v2_replacement: '2'
+    skip: true
 
   - regex: '(Android) Eclair'
     v1_replacement: '2'
     v2_replacement: '1'
+    skip: true
 
   - regex: '(Android) Froyo'
     v1_replacement: '2'
     v2_replacement: '2'
+    skip: true
 
   - regex: '(Android) Gingerbread'
     v1_replacement: '2'
     v2_replacement: '3'
+    skip: true
 
   - regex: '(Android) Honeycomb'
     v1_replacement: '3'
+    skip: true
 
   # desktop mode
   # http://www.anandtech.com/show/3982/windows-phone-7-review
@@ -722,134 +900,182 @@ user_agent_parsers:
 
   # Nextcloud desktop sync client
   - regex: '(Nextcloud)'
+    skip: true
 
   # Generic mirall client
   - regex: '(mirall)/(\d+)\.(\d+)\.(\d+)'
+    skip: true
 
   # Nextcloud/Owncloud android client
   - regex: '(ownCloud-android)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Owncloud'
+    skip: true
 
   # Skype for Business
   - regex: '(OC)/(\d+)\.(\d+)\.(\d+)\.(\d+) \(Skype for Business\)'
     family_replacement: 'Skype'
+    skip: true
 
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####
   - regex: '(Obigo)InternetBrowser'
+    skip: true
   - regex: '(Obigo)\-Browser'
+    skip: true
   - regex: '(Obigo|OBIGO)[^\d]*(\d+)(?:.(\d+)|)'
     family_replacement: 'Obigo'
+    skip: true
 
   - regex: '(MAXTHON|Maxthon) (\d+)\.(\d+)'
     family_replacement: 'Maxthon'
+    ignore: true
   - regex: '(Maxthon|MyIE2|Uzbl|Shiira)'
     v1_replacement: '0'
+    ignore: true
 
   - regex: '(BrowseX) \((\d+)\.(\d+)\.(\d+)'
+    skip: true
 
   - regex: '(NCSA_Mosaic)/(\d+)\.(\d+)'
     family_replacement: 'NCSA Mosaic'
+    ignore: true
 
   # Polaris/d.d is above
   - regex: '(POLARIS)/(\d+)\.(\d+)'
     family_replacement: 'Polaris'
+    skip: true
   - regex: '(Embider)/(\d+)\.(\d+)'
     family_replacement: 'Polaris'
+    skip: true
 
   - regex: '(BonEcho)/(\d+)\.(\d+)\.?([ab]?\d+|)'
     family_replacement: 'Bon Echo'
+    skip: true
 
     # topbuzz on IOS
   - regex: '(TopBuzz) com.alex.NewsMaster/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
+    skip: true
   - regex: '(TopBuzz) com.mobilesrepublic.newsrepublic/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
+    skip: true
   - regex: '(TopBuzz) com.topbuzz.videoen/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
+    skip: true
 
   # @note: iOS / OSX Applications
   - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|) Mobile'
     family_replacement: 'Google'
+    ignore: true
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+)|).*[ +]Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+)|).* AppleNews\/\d+\.\d+\.\d+?'
     family_replacement: 'Mobile Safari UI/WKWebView'
+    skip: true
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Mobile Safari UI/WKWebView'
+    skip: true
   - regex: '(iPod|iPod touch|iPhone|iPad).* Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPod touch|iPhone|iPad)'
     family_replacement: 'Mobile Safari UI/WKWebView'
+    skip: true
   - regex: '(Watch)(\d+),(\d+)'
     family_replacement: 'Apple $1 App'
+    skip: true
 
   ##########################
   # Outlook on iOS >= 2.62.0
   ##########################
   - regex: '(Outlook-iOS)/\d+\.\d+\.prod\.iphone \((\d+)\.(\d+)\.(\d+)\)'
+    skip: true
 
   - regex: '(AvantGo) (\d+).(\d+)'
+    skip: true
 
   - regex: '(OneBrowser)/(\d+).(\d+)'
     family_replacement: 'ONE Browser'
+    skip: true
 
   - regex: '(Avant)'
     v1_replacement: '1'
+    ignore: true
 
   # This is the Tesla Model S (see similar entry in device parsers)
   - regex: '(QtCarBrowser)'
     v1_replacement: '1'
+    ignore: true
 
   - regex: '^(iBrowser/Mini)(\d+).(\d+)'
     family_replacement: 'iBrowser Mini'
+    skip: true
   - regex: '^(iBrowser|iRAPP)/(\d+).(\d+)'
+    skip: true
 
   # nokia browsers
   # based on: http://www.developer.nokia.com/Community/Wiki/User-Agent_headers_for_Nokia_devices
   - regex: '^(Nokia)'
     family_replacement: 'Nokia Services (WAP) Browser'
+    skip: true
   - regex: '(NokiaBrowser)/(\d+)\.(\d+).(\d+)\.(\d+)'
     family_replacement: 'Nokia Browser'
+    ignore: true
   - regex: '(NokiaBrowser)/(\d+)\.(\d+).(\d+)'
     family_replacement: 'Nokia Browser'
+    ignore: true
   - regex: '(NokiaBrowser)/(\d+)\.(\d+)'
     family_replacement: 'Nokia Browser'
+    ignore: true
   - regex: '(BrowserNG)/(\d+)\.(\d+).(\d+)'
     family_replacement: 'Nokia Browser'
+    skip: true
   - regex: '(Series60)/5\.0'
     family_replacement: 'Nokia Browser'
     v1_replacement: '7'
     v2_replacement: '0'
+    ignore: true
   - regex: '(Series60)/(\d+)\.(\d+)'
     family_replacement: 'Nokia OSS Browser'
+    ignore: true
   - regex: '(S40OviBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Ovi Browser'
+    skip: true
   - regex: '(Nokia)[EN]?(\d+)'
+    skip: true
 
   # BlackBerry devices
   - regex: '(PlayBook).+RIM Tablet OS (\d+)\.(\d+)\.(\d+)'
     family_replacement: 'BlackBerry WebKit'
+    skip: true
   - regex: '(Black[bB]erry|BB10).+Version/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'BlackBerry WebKit'
+    skip: true
   - regex: '(Black[bB]erry)\s?(\d+)'
     family_replacement: 'BlackBerry'
+    ignore: true
 
   - regex: '(OmniWeb)/v(\d+)\.(\d+)'
+    skip: true
 
   - regex: '(Blazer)/(\d+)\.(\d+)'
     family_replacement: 'Palm Blazer'
+    skip: true
 
   - regex: '(Pre)/(\d+)\.(\d+)'
     family_replacement: 'Palm Pre'
+    skip: true
 
   # fork of Links
   - regex: '(ELinks)/(\d+)\.(\d+)'
+    skip: true
   - regex: '(ELinks) \((\d+)\.(\d+)'
+    skip: true
   - regex: '(Links) \((\d+)\.(\d+)'
+    skip: true
 
   - regex: '(QtWeb) Internet Browser/(\d+)\.(\d+)'
+    skip: true
 
   #- regex: '\(iPad;.+(Version)/(\d+)\.(\d+)(?:\.(\d+)|).*Safari/'
   #  family_replacement: 'iPad'
@@ -860,6 +1086,7 @@ user_agent_parsers:
   # WebKit Nightly
   - regex: '(AppleWebKit)/(\d+)(?:\.(\d+)|)\+ .* Safari'
     family_replacement: 'WebKit Nightly'
+    ignore: true
 
   # Safari
   - regex: '(Version)/(\d+)\.(\d+)(?:\.(\d+)|).*Safari/'
@@ -868,17 +1095,22 @@ user_agent_parsers:
   - regex: '(Safari)/\d+'
 
   - regex: '(OLPC)/Update(\d+)\.(\d+)'
+    skip: true
 
   - regex: '(OLPC)/Update()\.(\d+)'
     v1_replacement: '0'
+    skip: true
 
   - regex: '(SEMC\-Browser)/(\d+)\.(\d+)'
+    skip: true
 
   - regex: '(Teleca)'
     family_replacement: 'Teleca Browser'
+    skip: true
 
   - regex: '(Phantom)/V(\d+)\.(\d+)'
     family_replacement: 'Phantom Browser'
+    skip: true
 
   - regex: '(Trident)/(7|8)\.(0)'
     family_replacement: 'IE'
@@ -898,12 +1130,14 @@ user_agent_parsers:
 
   # Espial
   - regex: '(Espial)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    skip: true
 
   # Apple Mail
 
   # apple mail - not directly detectable, have it after Safari stuff
   - regex: '(AppleWebKit)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Apple Mail'
+    skip: true
 
   # AFTER THE EDGE CASES ABOVE!
   # AFTER IE11
@@ -916,43 +1150,58 @@ user_agent_parsers:
 
   - regex: '(python-requests)/(\d+)\.(\d+)'
     family_replacement: 'Python Requests'
+    skip: true
 
   # headless user-agents
   - regex: '\b(Windows-Update-Agent|WindowsPowerShell|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|wget2|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+    skip: true
 
   # PyCSW
   - regex: '(pycsw)'
+    skip: true
 
   # Asynchronous HTTP Client/Server for asyncio and Python (https://aiohttp.readthedocs.io/)
   - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Python aiohttp'
+    skip: true
 
   - regex: '(Java)[/ ]?\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)'
+    skip: true
 
   # Cloud Storage Clients
   - regex: '^(Cyberduck)/(\d+)\.(\d+)\.(\d+)(?:\.\d+|)'
+    skip: true
   - regex: '^(S3 Browser) (\d+)-(\d+)-(\d+)(?:\s*http://s3browser\.com|)'
+    skip: true
   - regex: '(S3Gof3r)'
+    skip: true
   # IBM COS (Cloud Object Storage) API
   - regex: '\b(ibm-cos-sdk-(?:core|java|js|python))/(\d+)\.(\d+)(?:\.(\d+)|)'
+    skip: true
   # rusoto - Rusoto - AWS SDK for Rust - https://github.com/rusoto/rusoto
   - regex: '^(rusoto)/(\d+)\.(\d+)\.(\d+)'
+    skip: true
   # rclone - rsync for cloud storage - https://rclone.org/
   - regex: '^(rclone)/v(\d+)\.(\d+)'
+    skip: true
 
   # Roku Digital-Video-Players https://www.roku.com/
   - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
+    skip: true
 
   # Kurio App News Reader https://kurio.co.id/
   - regex: '(Kurio)\/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Kurio App'
+    skip: true
 
   # Box Drive and Box Sync https://www.box.com/resources/downloads
   - regex: '^(Box(?: Sync)?)/(\d+)\.(\d+)\.(\d+)'
+    skip: true
 
   # ViaFree streaming app https://www.viafree.{dk|se|no}
   - regex: '^(ViaFree|Viafree)-(?:tvOS-)?[A-Z]{2}/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'ViaFree'
+    skip: true
 
 os_parsers:
   ##########
