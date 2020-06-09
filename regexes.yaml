@@ -1,6 +1,10 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # Service Monitor
+  - regex: '(ServiceMonitor)/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    family_replacement: Service Monitor
+
   # GDI-DE Testsuite
   - regex: '(GDI-Testsuite)'
     family_replacement: 'GDI-DE Testsuite'
