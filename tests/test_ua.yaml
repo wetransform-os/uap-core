@@ -8414,3 +8414,9 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+
+  - user_agent_string: 'FeatureExplorer/1.3 Go-http-client/1.1'
+    family: 'Feature Explorer'
+    major: '1'
+    minor: '3'
+    patch:

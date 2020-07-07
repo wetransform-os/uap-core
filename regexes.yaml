@@ -5,6 +5,10 @@ user_agent_parsers:
   - regex: '(ServiceMonitor)/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
     family_replacement: Service Monitor
 
+  # Feature Explorer
+  - regex: '(FeatureExplorer)/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    family_replacement: Feature Explorer
+
   # GDI-DE Testsuite
   - regex: '(GDI-Testsuite)'
     family_replacement: 'GDI-DE Testsuite'
